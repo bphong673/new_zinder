@@ -1,0 +1,26 @@
+* {
+
+    border: black 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+
+}
+
+html {
+    height: max-content;
+    max-width: 100vw;
+
+}
+
+body {
+    height: 200vh;
+    max-width: 100vw;
+}
+
+.page {
+    border: red 1px solid;
+    height: 100vh;
+    max-width: 100vw;
+}

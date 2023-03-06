@@ -1,0 +1,59 @@
+#bottleHierachy {
+
+  margin-left: -10vw;
+    margin-top: -60vh;
+object-fit:contain;
+
+    transform: rotate(90deg);
+   width: 150vh;
+   display: inline-block;
+}
+
+
+
+.hierachy-container {
+
+    
+    width: 50vw;
+    height: 50vh;
+    margin: auto auto;
+ 
+}
+
+.title {
+    font-kerning: 10px;
+    font-weight: 1000;
+    display: inline-block;
+    color: var(--colorContrastMain);
+    margin-bottom: -20vh;
+    z-index: 3;
+    font-size: 30vh;
+    font-family: mainfontSERIFCONTRAST;
+    margin: auto;
+}
+
+#p1 {
+    background-color: var(--colorMain);
+}
+
+.navigation {
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    align-content: space-around ;
+    position:fixed;
+}
+
+#p2 {
+    background-color: #7DA626;
+    
+}
+
+.navigation div {
+    font-size: 2vh;
+    display: flex;
+    color: black;
+}
